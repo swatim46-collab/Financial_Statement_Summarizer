@@ -1,6 +1,6 @@
 # Implementation Plan: Financial Statement Summarizer
 
-**Branch**: `001-financial-statement-summarizer` (proposed; not created) | **Date**: 2026-09-30 | **Spec**: [spec.md](spec.md)
+**Branch**: `001-financial-statement-summarizer` | **Date**: 2026-09-30 | **Spec**: [spec.md](spec.md)
 
 **Input**: [spec.md](spec.md), [prd.md](../../../prd.md), and [constitution.md](../../../.specify/memory/constitution.md)
 

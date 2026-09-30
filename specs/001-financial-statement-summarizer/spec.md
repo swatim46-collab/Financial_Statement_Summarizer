@@ -1,6 +1,6 @@
 # Feature Specification: Financial Statement Summarizer
 
-**Feature Branch**: not created
+**Feature Branch**: `001-financial-statement-summarizer`
 
 **Created**: 2026-09-30
 
@@ -30,14 +30,14 @@ events, and outlook.
 2. **Given** a summary containing numeric claims, **When** each claim is checked against the
    uploaded report, **Then** every non-computed number is present in the source text.
 3. **Given** a PDF with no readable text, **When** the user submits it, **Then** the exact message
-   `no readable text found, please upload a text-based PDF` is shown.
+  `no readable text found, please upload a text-based PDF` is shown.
 4. **Given** a user without an account, **When** they submit one report, **Then** they can
-   complete the report review without creating an account.
+  complete the report review without creating an account.
 5. **Given** a user wants to review multiple reports together, **When** they submit more than one
-   report for a single analysis, **Then** the product explains that v1 supports one report per
-   analysis.
+  report for a single analysis, **Then** the product explains that v1 supports one report per
+  analysis.
 6. **Given** the report contains unrelated sections, **When** the summary is prepared, **Then**
-   its claims are limited to facts relevant to the requested summary topics.
+  its claims are limited to facts relevant to the requested summary topics.
 
 ---
 
